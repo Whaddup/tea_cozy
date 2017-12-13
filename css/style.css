@@ -1,0 +1,98 @@
+body { display: flex;
+justify-content: center;}
+
+/** HEADER **/
+header { display: flex;
+align-items: center;
+height: 69px;
+width: 100%;
+border: 1px solid black;
+border-bottom: 5px solid red;
+position: fixed;
+
+}
+
+.logo_chunk { background-color: black;
+  flex-grow: 1;}
+
+.logo_actual{ height: 50px; }
+
+.buttons {color: black;}
+
+
+/**CONTAINER **/
+
+.container {display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black; }
+
+.main_banner {display: inline-flex;
+  background-image: url("file:///C:/Users/PC/Desktop/codeacademy/tea_cozy/images/background.jpg");
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+border: 1px solid black;
+height: 700px;
+width: 1200px;
+margin-top: 69px;
+}
+
+.main_banner h2, .main_banner h4 {display: flex;
+  margin: 0;
+  color: red;
+}
+
+/**MID-PIECE TOP **/
+
+.midpiece_top {display: inline-flex;
+  width: 1000px;
+  align-items: center;
+  flex-direction: column;
+border: 15px solid red;
+}
+
+.midpiece_top h2, .midpiece_top h4 { display: inline-flex;
+  margin: 0;
+  color: red; }
+
+/** MID PIECE MIDDLE **/
+
+img {height: 200px;
+width: 300px;}
+
+.midpiece_image1 { border: 1px black solid;}
+.midpiece_image2 { border: 1px black solid;}
+.midpiece_image3 { border: 1px black solid;}
+
+.midpiece_mid {display: flex;}
+.midpiece_bottom {display: flex;}
+
+/***LOCATIONS_BOX **/
+
+.locations_box {   border: 5px yellow solid;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+width: 100%;}
+
+
+.locations_text { display: inline-flex;
+  border: 5px blue solid;
+ }
+
+.branches_overallbox { display: inline-flex;
+  border: 10px red solid;
+flex-direction: row;
+}
+
+.downtown { border: 1px black solid;
+width: 300px; }
+.east_bayside { border: 1px black solid;
+width: 300px; }
+.oakdale { border: 1px black solid;
+width: 300px;}

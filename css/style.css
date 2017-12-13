@@ -22,11 +22,11 @@ position: fixed;
 
 /**CONTAINER **/
 
-.container {display: inline-flex;
+.container {display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-height: 3000px;
+height: 5000px;
 width: 100%;
   border: 1px solid black; }
 
@@ -37,7 +37,7 @@ width: 100%;
   flex-direction: column;
 border: 1px solid black;
 height: 700px;
-width: 1200px;
+width: 100%;
 margin-top: 69px;
 }
 
@@ -49,7 +49,7 @@ margin-top: 69px;
 /**MID-PIECE TOP **/
 
 .midpiece_top {display: inline-flex;
-  width: 1000px;
+  width: 100%;
   align-items: center;
   flex-direction: column;
 border: 15px solid red;
@@ -100,4 +100,4 @@ width: 300px;}
 
 
 .contactinfo_box {height: 200px;
-width: 10px; }
+width: 100%; }

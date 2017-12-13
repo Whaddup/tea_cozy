@@ -26,7 +26,8 @@ position: fixed;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+height: 3000px;
+width: 100%;
   border: 1px solid black; }
 
 .main_banner {display: inline-flex;
@@ -73,7 +74,7 @@ width: 300px;}
 /***LOCATIONS_BOX **/
 
 .locations_box {   border: 5px yellow solid;
-    display: flex;
+    display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -96,3 +97,7 @@ width: 300px; }
 width: 300px; }
 .oakdale { border: 1px black solid;
 width: 300px;}
+
+
+.contactinfo_box {height: 200px;
+width: 10px; }

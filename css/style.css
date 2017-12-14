@@ -42,7 +42,7 @@ width: 100%;
 
 .main_banner {display: flex;
 
-background-image: url("tea_cozy/images/background.jpg");
+background-image: url("../images/background.jpg");
   /* background-image: url("https://raw.githubusercontent.com/Whaddup/tea_cozy/master/images/background.jpg"); */
   align-items: center;
   justify-content: center;

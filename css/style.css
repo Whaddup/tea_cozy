@@ -1,15 +1,18 @@
-body { display: flex;
-justify-content: center;}
+body {font-family: helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;}
 
 /** HEADER **/
 header { display: flex;
 align-items: center;
 height: 69px;
 width: 100%;
-border: 1px solid black;
-border-bottom: 5px solid red;
+border: 1px solid red;
+border-bottom: 5px solid yellow;
 position: fixed;
-
+z-index: 1;
 }
 
 .logo_chunk { background-color: black;
@@ -17,7 +20,8 @@ position: fixed;
 
 .logo_actual{ height: 50px; }
 
-.buttons {color: black;}
+.buttons {color: seashell;
+text-decoration: underline;}
 
 
 /**CONTAINER **/
@@ -26,7 +30,7 @@ position: fixed;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-height: 5000px;
+height: 100%;
 width: 100%;
   border: 1px solid black; }
 
@@ -37,7 +41,7 @@ width: 100%;
   flex-direction: column;
 border: 1px solid black;
 height: 700px;
-width: 100%;
+width: 1200px;
 margin-top: 69px;
 }
 
@@ -49,10 +53,11 @@ margin-top: 69px;
 /**MID-PIECE TOP **/
 
 .midpiece_top {display: inline-flex;
-  width: 100%;
+  width: 1000px;
   align-items: center;
   flex-direction: column;
-border: 15px solid red;
+  margin-bottom: 20px;
+margin-top:  50px;
 }
 
 .midpiece_top h2, .midpiece_top h4 { display: inline-flex;
@@ -64,12 +69,35 @@ border: 15px solid red;
 img {height: 200px;
 width: 300px;}
 
-.midpiece_image1 { border: 1px black solid;}
-.midpiece_image2 { border: 1px black solid;}
-.midpiece_image3 { border: 1px black solid;}
 
-.midpiece_mid {display: flex;}
+.midpiece_mid {display: flex;
+}
+
+.midpiece_image1 { border: 1px black solid;
+text-align: center;
+margin-right: 50px; }
+.midpiece_image2 { border: 1px black solid;
+text-align: center;
+margin-right: 50px;}
+.midpiece_image3 { border: 1px black solid;
+text-align: center;}
+
+.midpiece_image1 h4 { border: 1px yellow solid;
+  margin-top: 10px;}
+.midpiece_image2 h4 { border: 1px yellow solid;
+margin-top: 10px;}
+.midpiece_image3 h4 { border: 1px yellow solid;
+margin-top: 10px;}
+
 .midpiece_bottom {display: flex;}
+
+.midpiece_image4 h4 { border: 1px yellow solid;
+text-align: center;
+margin-right: 50px;
+margin-top: 10px;}
+.midpiece_image5 h4 { border: 1px yellow solid;
+text-align: center;
+margin-top: 10px;}
 
 /***LOCATIONS_BOX **/
 
@@ -89,15 +117,37 @@ width: 100%;}
 .branches_overallbox { display: inline-flex;
   border: 10px red solid;
 flex-direction: row;
+margin-top: 15px;
 }
 
-.downtown { border: 1px black solid;
-width: 300px; }
-.east_bayside { border: 1px black solid;
-width: 300px; }
-.oakdale { border: 1px black solid;
-width: 300px;}
+.downtown { border: 3px yellow solid;
+width: 300px;
+margin-right: 40px;
+text-align: center; }
+.east_bayside { border: 3px yellow solid;
+width: 300px;
+margin-right: 40px;
+text-align: center;}
+.oakdale { border: 3px yellow solid;
+width: 300px;
+text-align: center;}
+
+.opacity_1px {opacity: 1;}
 
 
-.contactinfo_box {height: 200px;
+.contactinfo_box { border: 5px purple dashed;
+  display: flex;
+align-items: center;
+  flex-direction: column;
+  height: 200px;
 width: 100%; }
+
+
+.contactinfo_name h2, .contactinfo_email h5, .contactinfo_phonenumber h5 { margin-top: 10px;}
+
+/**Copyright Box **/
+
+.copyright_box {
+  padding-left: 20px;
+  border: 3px blue dotted;
+width: 100%;}

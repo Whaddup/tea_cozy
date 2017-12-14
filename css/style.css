@@ -41,15 +41,17 @@ width: 100%;
 }
 
 .main_banner {display: flex;
-  background-image: url("file:///C:/Users/PC/Desktop/codeacademy/tea_cozy/images/background.jpg");
+
+background-image: url("tea_cozy/images/background.jpg");
+  /* background-image: url("https://raw.githubusercontent.com/Whaddup/tea_cozy/master/images/background.jpg"); */
   align-items: center;
   justify-content: center;
 border: 1px solid black;
 height: 700px;
 width: 1200px;
 margin-top: 69px;
-
 }
+
 
 .main_banner_strip {
   display: flex;

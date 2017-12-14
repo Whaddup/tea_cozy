@@ -7,21 +7,28 @@ opacity: 0.9;}
 /** HEADER **/
 header { display: flex;
 align-items: center;
+background-color: black;
 height: 69px;
 width: 100%;
 border: 1px solid red;
-border-bottom: 5px solid yellow;
+border-bottom: 1px solid seashell;
 position: fixed;
 z-index: 1;
 }
 
-.logo_chunk { background-color: black;
-  flex-grow: 1;}
+.logo_chunk {   flex-grow: 1;
+margin-left: 10px;}
 
 .logo_actual{ height: 50px; }
 
+.header_buttons { display: flex;
+  justify-content: space-around;
+  min-width: 450px;
+}
+
 .buttons {color: seashell;
-text-decoration: underline;}
+text-decoration: underline;
+}
 
 
 /**CONTAINER **/
@@ -34,20 +41,30 @@ height: 100%;
 width: 100%;
   border: 1px solid black; }
 
-.main_banner {display: inline-flex;
+.main_banner {display: flex;
   background-image: url("file:///C:/Users/PC/Desktop/codeacademy/tea_cozy/images/background.jpg");
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 border: 1px solid black;
 height: 700px;
 width: 1200px;
 margin-top: 69px;
+
 }
 
+.main_banner_strip {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+background-color: black;
+width: 1200px;
+}
+
+
 .main_banner h2, .main_banner h4 {display: flex;
-  margin: 0;
-  color: red;
+  margin: 10px;
+    background-color: black;
 }
 
 /**MID-PIECE TOP **/
@@ -62,7 +79,7 @@ margin-top:  50px;
 
 .midpiece_top h2, .midpiece_top h4 { display: inline-flex;
   margin: 0;
-  color: red; }
+   }
 
 /** MID PIECE MIDDLE **/
 
